@@ -108,7 +108,7 @@ public:
     }
 };
 
-// Menu-driven interface
+
 void displayMenu() {
     cout << "Banking System Menu " << endl;
     cout << "1. Create Savings Account" << endl;
@@ -216,7 +216,7 @@ int main() {
                     }
                 }
                 break;
-            case 7: // Display Account Info
+            case 7: 
                 cout << "Enter Account Number: ";
                 cin >> accNum;
                 for (int i = 0; i < accountCount; ++i) {
